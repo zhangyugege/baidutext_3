@@ -1,0 +1,60 @@
+/*common*/
+.container{
+    background-color:#eee;
+    border:solid 1px #999;
+    /*overflow: hidden;*/
+}
+div{
+    box-sizing: border-box;
+}
+.whitebg{
+    background-color: #ffffff;
+    border: solid 1px #999;
+    padding: 10px;
+    margin: 10px;
+}
+img{
+
+    height: 80px;
+    width: 80px;
+}
+/*left*/
+.left_container{
+
+    width: 200px;
+    float: left;
+}
+.left_container img{
+    float: left;
+    border: solid 1px #999;
+}
+.left_container span{
+    float: left;
+    display: inline-block;
+    font-size: small;
+    margin-left: 7px;
+
+}
+/*right*/
+.right_container{
+    width: 120px;
+    float: right;
+
+}
+.right_logo{
+    border: solid 1px #999;
+    margin-bottom: 10px;
+
+
+}
+/*bottom*/
+.overflow{
+    clear: both;
+}
+/*middle*/
+.middle_container{
+
+    padding: 10px;
+    margin-left: 220px;
+    margin-right: 140px;
+}
